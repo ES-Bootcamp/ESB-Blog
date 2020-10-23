@@ -13,7 +13,9 @@ CREATE TABLE `users` (
 DROP TABLE IF EXISTS `categories`;
 CREATE TABLE `categories` (
   `id_categorie` int NOT NULL AUTO_INCREMENT,
-  `categorie_name` varchar(255) NOT NULL,  
+  `categorie_name` varchar(255) NOT NULL, 
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, 
   PRIMARY KEY (`id_categorie`)
 );
 
@@ -22,6 +24,8 @@ CREATE TABLE `articles` (
   `id_article` int NOT NULL AUTO_INCREMENT,
   `article_name` varchar(255) NOT NULL,
   `article_content` TEXT NOT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `id_categorie` int ,
   `id_user` int,    
   PRIMARY KEY (`id_article`),
