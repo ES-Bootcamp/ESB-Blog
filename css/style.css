@@ -1,0 +1,117 @@
+/**
+colors :
+
+background :
+#0B0C10
+
+second background:
+#1F2833
+
+gray 
+C5C6C7
+
+primary :
+#66FCF1
+
+secondary
+#45129
+
+**/
+
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+}
+h3{
+    font-size: 1.5rem;
+}
+a {
+    color: #66FCF1;
+}
+/***header***/
+
+.navbar{
+    background-color: #0B0C10;
+    color: #66FCF1 !important;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.btn-main{
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+
+input{
+    background-color: #1F2833 !important;
+    color:#66FCF1 !important ;
+}
+
+
+/*hero section */
+.hero {
+    background-color: #1F2833;
+}
+
+.hero-post-badges{
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+
+.hero-post-badges>a{
+    display: block;
+    background-color: #1F2833;
+    color: #66FCF1;
+    font-size: 0.8rem;
+}
+
+
+.hero-post-content{
+    position:;
+    bottom: 20px;
+    color: #66FCF1;
+}
+.hero-post-content img {
+    border: 2px solid #66FCF1;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
