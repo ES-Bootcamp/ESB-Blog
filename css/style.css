@@ -1,0 +1,248 @@
+/**
+colors :
+
+background :
+#0B0C10
+
+second background:
+#1F2833
+
+gray 
+C5C6C7
+
+primary :
+#66FCF1
+
+secondary
+#45129
+
+**/
+
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    color: #66FCF1;
+}
+h3{
+    font-size: 1.5rem;
+}
+a {
+    color: #66FCF1;
+}
+/***header***/
+
+.navbar{
+    background-color: #0B0C10;
+    color: #66FCF1 !important;
+}
+.navbar-brand,
+.footer-logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.btn-main{
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+
+input{
+    background-color: #1F2833 !important;
+    color:#66FCF1 !important ;
+}
+img {
+    filter: grayscale(10%) brightness(0.7);
+}
+.img-fluid.rounded-circle{
+    filter: none;
+    border: 2px solid #66FCF1;
+}
+
+/*hero section */
+.container h4{
+    padding: 1rem;
+    margin:1rem;
+}
+
+.hero {
+    background-color: #1F2833;
+}
+
+.hero-post-badges{
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+.heros-post-badges{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+.hero-post2-badges{
+    position: absolute;
+    top:270px;
+    right: 20px;
+}
+
+
+
+.hero-post-badges>a{
+    display: block;
+    background-color: #1F2833;
+    color: #66FCF1;
+    font-size: 0.7rem;
+}
+.heros-post-badges>a{
+    display: block;
+    background-color: #1F2833;
+    color: #66FCF1;
+    font-size: 0.7rem;
+}
+.hero-post2-badges>a{
+    display: block;
+    background-color: #1F2833;
+    color: #66FCF1;
+    font-size: 0.7rem;
+}
+
+.hero-post-content{
+    bottom: 20px;
+    color: #66FCF1;
+}
+.hero-post-content img {
+    border: 2px solid #66FCF1;
+    
+}
+
+/* main blog*/
+.blog-posts{
+    background-color: #0B0C10;
+    color: #fff;
+}
+
+.blog-post img{
+width: 100%;
+height: 100%;
+
+}
+
+.blog-post{
+    background-color: #1F2833;
+}
+.blog-post p{
+    font-size: 0.8rem;
+}
+.blog-post h3 {
+    font-size: 1.4rem;
+}
+
+.blog-post .col-sm-8{
+    border-left: 3px solid #66FCF1;
+}
+.badge {
+    margin-top:1rem;
+    margin-bottom: 0.5rem;
+}
+.badge > a{
+    margin-left: 0.2rem;
+    padding: 0.2rem;
+    background-color: #66FCF1;
+    color: #1F2833;
+}
+
+/*a side social links*/
+.social-links{
+    background-color: #66FCF1;
+    color: #0B0C10 !important;
+}
+
+.social-link{
+    color: #0B0C10;
+}
+.secondary-color{
+    background-color:#1F2833 ;
+    
+}
+.secondary-color>a{
+    color: #45A298;
+
+}
+.primary-color{
+    background-color: #0B0C10;
+}
+.primary-color>a{
+    color: #45A298;
+
+}
+
+
+.asid-heading{
+    border-left: 3px solid #66FCF1 ;
+}
+.author p {
+    font-size: 0.9rem;
+}
+
+.socials-links a {
+    margin-left:0.8rem ;
+}
+
+.badges {
+    margin-top:1rem;
+    margin-bottom: 0.5rem;
+    
+}
+.badges > a{
+    display: inline-block;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    background-color: #66FCF1;
+    color: #1F2833;
+
+    border-radius: 4px;
+}
+/**footer**/
+
+
+
+.footer{
+    background-color: #07101b;
+    color: #45A298;
+}
+.footer p{
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+}
+
+footer input{
+    background-color: #0B0C10 !important;
+    padding-top:10px ;
+}
+
+
+.use h4{
+    margin: 1px 1px ;
+    padding-top: 0px;
+    padding-left: 55px;
+    font-size: 1.8rem;
+}
+.use a{
+    color: white;
+    
+}
+.use ul li {
+    color: white;
+    margin-left: 62px;
+}
+.use2 h4{
+    margin: 1px 1px ;
+    padding: 0px 0px;
+}
+.form-inline{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
